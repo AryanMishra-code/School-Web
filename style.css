@@ -1,0 +1,26 @@
+.header {
+    background : radial-gradient(red, orange, yellow);
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header1 {
+    background-image: linear-gradient(to Bottom, red, yellow, white, orange, magenta);
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+a :link{
+    color : red; 
+    }
+    a:visited{
+        color : red;
+    }
+   
+    a:hover, .grid1:hover{
+        background-color : blue; 
+    }a:hover, .grid2:hover{
+        background-color : green; 
+    }
